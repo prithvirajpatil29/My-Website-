@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+}
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.mobile{
+    
+    font-size: 30px;
+}
+
+.email{
+    font-size: 30px;
+}

@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+
+.top-container{
+    background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-container h1{
+    font-size: 50px;
+    font-family: cursive;
+    
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+
+.text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: lightblue;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.4s;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+text-decoration: none;
+margin: 0 10px;
+color: black;
+font-family: cursive;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar.active{
+    background-color: lightgray;
+}
+
+.navbar.active ul li a{
+    color: white;
+    background-color: black;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
+.githublogo{
+    height: 35px;
+}
+
+.sociallogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github:hover{
+    color: red;
+}
+
+.social:hover{
+    color: red;
+}
